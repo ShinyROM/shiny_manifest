@@ -444,5 +444,7 @@
   <project path="vendor/shiny" name="android_vendor_shiny" remote="shiny" revision="master" />
   <project path="vendor/ti" name="android_vendor_ti" remote="shiny" revision="master" />
   <project path="vendor/widevine" name="android_vendor_widevine" remote="shiny" revision="master" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="shiny" revision="master" />
+  <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="shiny" revision="master" />
 
 </manifest>
