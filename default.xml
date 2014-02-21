@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="shiny"
 		   fetch="https://github.com/ShinyROM/" />
-  <default revision="refs/tags/android-4.4.2_r1"
+  <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
 
@@ -49,6 +49,7 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device, tuna" remote="shiny" revision="master" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" groups="device,tuna,toro" remote="shiny" revision="master" />
+  <project path="device/samsung/maguro" name="android_device_samsung_maguro" groups="device,tuna,maguro" remote="shiny" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -299,7 +300,7 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="android_platform_packages_apps_browser" remote="shiny" branch="master" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -446,5 +447,6 @@
   <project path="vendor/widevine" name="android_vendor_widevine" remote="shiny" revision="master" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="shiny" revision="master" />
   <project path="kernel/asus/grouper" name="android_kernel_asus_grouper" remote="shiny" revision="master" />
+  <project path="kernel/asus/flo" name="android_kernel_asus_flo" remote="shiny" revision="master" />
 
 </manifest>
