@@ -51,6 +51,7 @@
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" groups="device,tuna" remote="shiny" revision="master" />
   <project path="device/samsung/toro" name="android_device_samsung_toro" groups="device,tuna,toro" remote="shiny" revision="master" />
+  <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" groups="device,tuna,toroplus" remote="shiny" revision="master" />
   <project path="device/samsung/maguro" name="android_device_samsung_maguro" groups="device,tuna,maguro" remote="shiny" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
