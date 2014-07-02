@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="shiny"
 		   fetch="https://github.com/ShinyROM/" />
-  <default revision="refs/tags/android-4.4.4_r1"
+  <default revision="l-preview"
            remote="aosp"
            sync-j="4" />
 
